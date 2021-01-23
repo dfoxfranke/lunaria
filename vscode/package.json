@@ -1,0 +1,32 @@
+{
+    "name": "lunaria",
+    "displayName": "Lunaria",
+    "publisher": "Daniel Fox Franke",
+    "description": "A soothing low-contrast color theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.48.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Lunaria Light",
+                "uiTheme": "vs",
+                "path": "./themes/light.json"
+            },
+            {
+                "label": "Lunaria Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark.json"
+            },
+            {
+                "label": "Lunaria Eclipse",
+                "uiTheme": "vs-dark",
+                "path": "./themes/eclipse.json"
+            }
+        ]
+    }
+}

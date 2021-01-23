@@ -1,0 +1,36 @@
+*.foreground: @fg@
+*.background: @bg@
+*.cursorColor: @fg@
+*.colorBD: @emphFg@
+
+! black
+*.color0: @black@
+*.color8: @darkGray@
+
+! red
+*.color1: @termLowRed@
+*.color9: @termHighRed@
+
+! green
+*.color2: @termLowGreen@
+*.color10: @termHighGreen@
+
+! yellow
+*.color3: @termLowYellow@
+*.color11: @termHighYellow@
+
+! blue
+*.color4: @termLowViolet@
+*.color12: @termHighViolet@
+
+! magenta
+*.color5: @termLowMagenta@
+*.color13: @termHighMagenta@
+
+! cyan
+*.color6: @termLowBlue@
+*.color14: @termHighBlue@
+
+! white
+*.color7: @lightGray@
+*.color15: @white@

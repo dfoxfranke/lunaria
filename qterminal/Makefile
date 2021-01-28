@@ -5,7 +5,7 @@ ECLIPSE_THEME=../lunaria-eclipse.json
 
 all: LunariaLight.colorscheme LunariaDark.colorscheme LunariaEclipse.colorscheme
 clean: 
-	$(RM) LunariaLight.colorscheme LunariaDark.colorscheme
+	$(RM) LunariaLight.colorscheme LunariaDark.colorscheme LunariaEclipse.colorscheme
 
 LunariaLight.colorscheme: template.colorscheme $(LIGHT_THEME)
 	$(LUNARIZE) --format=decimal_rgb $(LIGHT_THEME) $< $@

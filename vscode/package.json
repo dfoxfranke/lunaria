@@ -2,7 +2,7 @@
     "name": "lunaria",
     "displayName": "Lunaria",
     "publisher": "Daniel Fox Franke",
-    "description": "A soothing low-contrast color theme",
+    "description": "A family of scientifically-designed, moderate-contrast color themes",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.48.0"

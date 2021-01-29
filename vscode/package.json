@@ -1,32 +1,47 @@
 {
-    "name": "lunaria",
-    "displayName": "Lunaria",
-    "publisher": "Daniel Fox Franke",
-    "description": "A family of scientifically-designed, moderate-contrast color themes",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.48.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Lunaria Light",
-                "uiTheme": "vs",
-                "path": "./themes/light.json"
-            },
-            {
-                "label": "Lunaria Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/dark.json"
-            },
-            {
-                "label": "Lunaria Eclipse",
-                "uiTheme": "vs-dark",
-                "path": "./themes/eclipse.json"
-            }
-        ]
-    }
+	"name": "lunaria",
+	"displayName": "Lunaria",
+	"publisher": "dfoxfranke",
+	"description": "A family of scientifically-designed, moderate-contrast color themes",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dfoxfranke/lunaria"
+	},
+	"homepage": "https://lunaria.design",
+	"bugs": "https://github.com/dfoxfranke/lunaria/issues",
+	"license": "Apache-2.0",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.48.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Lunaria Light",
+				"uiTheme": "vs",
+				"path": "./themes/light.json"
+			},
+			{
+				"label": "Lunaria Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark.json"
+			},
+			{
+				"label": "Lunaria Eclipse",
+				"uiTheme": "vs-dark",
+				"path": "./themes/eclipse.json"
+			}
+		]
+	},
+	"dependencies": {
+		"vsce": "^1.84.0"
+	},
+	"__metadata": {
+		"id": "173a0eff-cb2f-483b-b0da-e8caac3cdc43",
+		"publisherDisplayName": "Daniel Fox Franke",
+		"publisherId": "06b6c3cd-caaa-426e-9f2d-b1feeece83c3"
+	}
 }

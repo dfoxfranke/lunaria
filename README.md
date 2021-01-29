@@ -37,26 +37,26 @@ For a detailed, designer-focused introduction to Lunaria and how to
 use it in your own work, see <https://lunaria.design>. All other
 "official" Lunaria resources are here in this repo.
 
-* The files [lunaria-light.json], [lunaria-dark.json], and [lunaria-eclipse.json]
+* The files [lunaria-light.json](./lunaria-light.json), [lunaria-dark.json](./lunaria-dark.json), and [lunaria-eclipse.json](./lunaria-eclipse.json)
    canonically define the respective color palettes. 
 
-* [lunarize.py] is a script for substituting color definitions
+* [lunarize.py](./lunarize.py) is a script for substituting color definitions
   (provided by one of the above JSON files) into a template.
 
-* [lunaria.ipynb] is the Jupyter notebook which was used to generate
+* [lunaria.ipynb](./lunaria.ipynb) is the Jupyter notebook which was used to generate
   Lunaria. Go here if you're interested in the gory mathematical
   details of how it was constructed.
 
-* [vscode/] contains the sources of the Lunaria extension for Visual
+* [vscode/](./vscode/) contains the sources of the Lunaria extension for Visual
   Studio Code.
 
-* [xrdb/] contains an X resource file for theming terminals such as
+* [xrdb/](./xrdb/) contains an X resource file for theming terminals such as
   `xterm` and `rxvt`.
 
-* [qterminal/] contains themes for QTerminal-based terminals such as
+* [qterminal/](./qterminal/) contains themes for QTerminal-based terminals such as
   Konsole and LXQt.
 
-* [css/] contains CSS files for using Lunaria in web design.
+* [css/](./css/) contains CSS files for using Lunaria in web design.
 
 ## License
 

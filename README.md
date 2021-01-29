@@ -56,6 +56,8 @@ use it in your own work, see <https://lunaria.design>. All other
 * [qterminal/](./qterminal/) contains themes for QTerminal-based terminals such as
   Konsole and LXQt.
 
+* [gogh](./gogh/) contains themes for terminals supported by Gogh, such as GNOME Terminal, XFCE4 Terminal, and iTerm.
+
 * [css/](./css/) contains CSS files for using Lunaria in web design.
 
 ## License

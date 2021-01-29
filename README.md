@@ -48,7 +48,7 @@ use it in your own work, see <https://lunaria.design>. All other
   details of how it was constructed.
 
 * [vscode/](./vscode/) contains the sources of the Lunaria extension for Visual
-  Studio Code.
+  Studio Code. (End-users are best off obtaining this through the [Marketplace](https://marketplace.visualstudio.com/items?itemName=dfoxfranke.lunaria))
 
 * [xrdb/](./xrdb/) contains an X resource file for theming terminals such as
   `xterm` and `rxvt`.

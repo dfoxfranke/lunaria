@@ -62,7 +62,7 @@ use it in your own work, see <https://lunaria.design>. All other
 
 Except as otherwise noted, the contents of this repo are Copyright ©
 Daniel Fox Franke and licensed under the [Apache License, version
-2.0](LICENSE). However, the Lunaria color palette itself is not
+2.0](LICENSE.md). However, the Lunaria color palette itself is not
 recognized as a copyrightable work in most jurisdictions. To
 whatever extent the law recognizes any copyrights to the following
 four files, I (Daniel Fox Franke) hereby waive those rights

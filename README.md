@@ -8,8 +8,6 @@ model and its as­so­ci­ated uni­form color space and chro­matic
 adap­ta­tion trans­form. Lu­naria in­cludes three dis­tinct
 palettes:
 
-Lu­naria in­cludes three dis­tinct palettes:
-
 * The *Light* palette is for users who pre­fer to read dark text on
   a light back­ground. It is de­signed to pro­vide the best
   fac­sim­ile of ink-​on-paper that an LCD mon­i­tor can pos­si­bly
@@ -56,7 +54,7 @@ use it in your own work, see <https://lunaria.design>. All other
 * [qterminal/](./qterminal/) contains themes for QTerminal-based terminals such as
   Konsole and LXQt.
 
-* [gogh](./gogh/) contains themes for terminals supported by Gogh, such as GNOME Terminal, XFCE4 Terminal, and iTerm.
+* [gogh/](./gogh/) contains themes for terminals supported by Gogh, such as GNOME Terminal, XFCE4 Terminal, and iTerm.
 
 * [css/](./css/) contains CSS files for using Lunaria in web design.
 

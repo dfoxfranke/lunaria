@@ -1,5 +1,5 @@
 TOPTARGETS := all clean
-SUBDIRS := css qterminal vscode xrdb gogh
+SUBDIRS := css qterminal vscode winterminal xrdb gogh
 
 $(TOPTARGETS): $(SUBDIRS)
 $(SUBDIRS):

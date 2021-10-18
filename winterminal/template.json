@@ -1,0 +1,23 @@
+{
+    "background": "@bg@",
+    "black": "@black@",
+    "blue": "@termLowViolet@",
+    "brightBlack": "@darkGray@",
+    "brightBlue": "@termHighViolet@",
+    "brightCyan": "@termHighBlue@",
+    "brightGreen": "@termHighGreen@",
+    "brightPurple": "@termHighMagenta@",
+    "brightRed": "@termHighRed@",
+    "brightWhite": "@white@",
+    "brightYellow": "@termHighYellow@",
+    "cursorColor": "@emphFg@",
+    "cyan": "@termLowBlue@",
+    "foreground": "@fg@",
+    "green": "@termLowGreen@",
+    "name": "@_name@",
+    "purple": "@termLowMagenta@",
+    "red": "@termLowRed@",
+    "selectionBackground": "@bgLowlight@",
+    "white": "@lightGray@",
+    "yellow": "@termLowYellow@"
+}

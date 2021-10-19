@@ -4,7 +4,7 @@ DARK_THEME=../lunaria-dark.json
 ECLIPSE_THEME=../lunaria-eclipse.json
 
 all: themes/light.json themes/dark.json themes/eclipse.json
-clean: 
+clean:
 	$(RM) themes/light.json themes/dark.json themes/eclipse.json
 
 themes/light.json: themes/template.json $(LIGHT_THEME)

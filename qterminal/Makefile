@@ -4,7 +4,7 @@ DARK_THEME=../lunaria-dark.json
 ECLIPSE_THEME=../lunaria-eclipse.json
 
 all: LunariaLight.colorscheme LunariaDark.colorscheme LunariaEclipse.colorscheme
-clean: 
+clean:
 	$(RM) LunariaLight.colorscheme LunariaDark.colorscheme LunariaEclipse.colorscheme
 
 LunariaLight.colorscheme: template.colorscheme $(LIGHT_THEME)

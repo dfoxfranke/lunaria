@@ -29,7 +29,3 @@ for (themename, themefile) in [("light", "../lunaria-light.json"), ("dark", "../
         print("  --lunaria-{}-quadrantopaque: {};".format(camel_to_dashes(k), to_css_rgba(v, 0.25)))
         print("  --lunaria-{}-octantopaque: {};".format(camel_to_dashes(k), to_css_rgba(v, 0.125)))
     print("}")
-        
-        
-        
-        

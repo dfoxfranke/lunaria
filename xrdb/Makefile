@@ -4,7 +4,7 @@ DARK_THEME=../lunaria-dark.json
 ECLIPSE_THEME=../lunaria-eclipse.json
 
 all: light.xrdb dark.xrdb eclipse.xrdb
-clean: 
+clean:
 	$(RM) light.xrdb dark.xrdb eclipse.xrdb
 
 light.xrdb: template.xrdb $(LIGHT_THEME)

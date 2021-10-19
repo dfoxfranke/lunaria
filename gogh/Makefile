@@ -4,7 +4,7 @@ DARK_THEME=../lunaria-dark.json
 ECLIPSE_THEME=../lunaria-eclipse.json
 
 all: lunaria-light.sh lunaria-dark.sh lunaria-eclipse.sh
-clean: 
+clean:
 	$(RM) lunaria-light.sh lunaria-dark.sh lunaria-eclipse.sh
 
 lunaria-light.sh: template.sh $(LIGHT_THEME)

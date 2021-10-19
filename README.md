@@ -36,7 +36,7 @@ use it in your own work, see <https://lunaria.design>. All other
 "official" Lunaria resources are here in this repo.
 
 * The files [lunaria-light.json](./lunaria-light.json), [lunaria-dark.json](./lunaria-dark.json), and [lunaria-eclipse.json](./lunaria-eclipse.json)
-   canonically define the respective color palettes. 
+  canonically define the respective color palettes.
 
 * [lunarize.py](./lunarize.py) is a script for substituting color definitions
   (provided by one of the above JSON files) into a template.

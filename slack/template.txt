@@ -1,0 +1,18 @@
+Go to your self icon in the upper right >> Preferences >> Themes
+Then select "Light" or "Dark".
+Then paste the following colors into the "Colors, Custom Theme".
+
+Column BG : bg : @bg@
+Unknown : invVividYellow : @invVividYellow@ 
+Active Item : emphBg : @emphBg@
+Active Item Text : emphFg : @emphFg@
+Hover Item : softViolet : @softViolet@
+Text Color : fg : @fg@
+Active Presence : vividViolet : @vividViolet@
+Mention Badge : vividRed : @vividRed@
+Top Nav BG : emphBg : @emphBg@
+Top Nav Text : emphFg : @emphFg@
+
+Or just paste the following text into any chat channel, and then tap "Switch sidebar theme".
+
+@bg@,@invVividYellow@,@emphBg@,@emphFg@,@softViolet@,@fg@,@vividViolet@,@vividRed@,@emphBg@,@emphFg@

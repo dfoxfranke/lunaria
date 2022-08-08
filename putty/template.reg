@@ -1,0 +1,50 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\Default%20Settings]
+"ANSIColour"=dword:00000001
+"Xterm256Colour"=dword:00000001
+"UseSystemColours"=dword:00000000
+; Default Foreground
+"Colour0"="@fg@"
+; Default Bold Foreground
+"Colour1"="@emphFg@"
+; Default Background
+"Colour2"="@bg@"
+; Default Bold Background
+"Colour3"="@emphBg@"
+; Cursor Text
+"Colour4"="@emphBg@"
+; Cursor Colour
+"Colour5"="@emphFg@"
+; ANSI Black
+"Colour6"="@black@"
+; ANSI Black Bold
+"Colour7"="@darkGray@"
+; ANSI Red
+"Colour8"="@termLowRed@"
+; ANSI Red Bold
+"Colour9"="@termHighRed@"
+; ANSI Green
+"Colour10"="@termLowGreen@"
+; ANSI Green Bold
+"Colour11"="@termHighGreen@"
+; ANSI Yellow
+"Colour12"="@termLowYellow@"
+; ANSI Yellow Bold
+"Colour13"="@termHighYellow@"
+; ANSI Blue
+"Colour14"="@termLowViolet@"
+; ANSI Blue Bold
+"Colour15"="@termHighViolet@"
+; ANSI Magenta
+"Colour16"="@termLowMagenta@"
+; ANSI Magenta Bold
+"Colour17"="@termHighMagenta@"
+; ANSI Cyan
+"Colour18"="@termLowBlue@"
+; ANSI Cyan Bold
+"Colour19"="@termHighBlue@"
+; ANSI White
+"Colour20"="@lightGray@"
+; ANSI White Bold
+"Colour21"="@white@"

@@ -7,11 +7,11 @@ Windows Registry Editor Version 5.00
 ; Default Foreground
 "Colour0"="@fg@"
 ; Default Bold Foreground
-"Colour1"="@EmphFg@"
+"Colour1"="@emphFg@"
 ; Default Background
 "Colour2"="@bg@"
 ; Default Bold Background
-"Colour3"="@EmphBg@"
+"Colour3"="@emphBg@"
 ; Cursor Text
 "Colour4"="@emphBg@"
 ; Cursor Colour

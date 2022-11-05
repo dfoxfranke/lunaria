@@ -57,6 +57,14 @@ resources are here in this repo.
 
 * [css/](./css/) contains CSS files for using Lunaria in web design.
 
+* [kitty/](./kitty/) contains the theme sources for the Kitty terminal emulator.
+
+* [tmtheme/](./tmtheme/) contains the theme sources for applications that
+  support .tmTheme file such as TextMate or Bat.
+
+* [winterminal/](./winterminal/) contains the theme sources for the Windows
+  Terminal.
+
 ## License
 
 Except as otherwise noted, the contents of this repo are Copyright &copy; Daniel

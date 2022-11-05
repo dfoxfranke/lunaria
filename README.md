@@ -65,6 +65,47 @@ resources are here in this repo.
 * [winterminal/](./winterminal/) contains the theme sources for the Windows
   Terminal.
 
+## Development
+
+In order to develop a color scheme / theme for another application that is not
+available yet, you have to create a template file in the format that the
+application supports.
+
+This template file is used by `lunarize.py` and replaces every occurance of
+`@<color_name>@` with the corresponding value.
+
+As an example, you can take a look at [colors_template.md](./colors_template.md)
+and see the results by looking at [colors_light.md](./colors_light.md),
+[colors_dark.md](./colors_dark.md) or [colors_eclipse.md](./colors_eclipse.md).
+
+These files also show you all available color names.
+
+### Usage lunarize.py
+
+```
+usage: lunarize.py [-h] [--format {css_hex,css_rgb,decimal_rgb}] theme [input] [output]
+
+Insert Lunaria colors into a template
+
+positional arguments:
+  theme                 JSON file defining theme colors
+  input                 Template file (default: stdin)
+  output                Output file (default: stdout)
+
+options:
+  -h, --help            show this help message and exit
+  --format {css_hex,css_rgb,decimal_rgb}
+                        How to format color codes
+                        
+                        A neutral gray would be formatted as follows:
+                        
+                        css_hex:      #808080
+                        css_rgb:      rgb(50.00%,50.00%,50.00%)
+                        decimal_rgb:  128,128,128
+                        
+                        The default is 'css_hex'
+```
+
 ## License
 
 Except as otherwise noted, the contents of this repo are Copyright &copy; Daniel

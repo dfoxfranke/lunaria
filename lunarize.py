@@ -31,11 +31,11 @@ def main():
     parser.add_argument('theme', type=str, help="JSON file defining theme colors")
     parser.add_argument('input', type=str, nargs='?', help="Template file (default: stdin)")
     parser.add_argument('output', type=str, nargs='?', help="Output file (default: stdout)")
-    
+
     parser.add_argument('--format', type=str, choices=FORMATTERS.keys(), default="css_hex",
     help=textwrap.dedent('''\
     How to format color codes
-    
+
     A neutral gray would be formatted as follows:
 
     css_hex:      #808080
@@ -52,7 +52,7 @@ def main():
         infile = sys.stdin
     else:
         infile = open(args.input, 'r')
-    
+
     if args.output is None:
         outfile = sys.stdout
     else:

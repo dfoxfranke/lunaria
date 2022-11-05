@@ -20,6 +20,30 @@ def to_decimal_rgb(rgb):
         *[ round(x * 255.) for x in rgb]
     )
 
+def calc_opacity_rgb(rgb_fg, rgb_bg, alpha):
+    return [alpha * c1 + (1 - alpha) * c2 for (c1, c2) in zip(rgb_fg, rgb_bg)]
+
+def inject_bg_opacity_colors(theme):
+    alpha_levels = [0.75, 0.5, 0.25, 0.125]
+    bg_colors = [
+        "bgRed",
+        "bgYellow",
+        "bgGreen",
+        "bgBlue",
+        "bgDarkBlue",
+        "bgLightYellow",
+        "bgHighlight",
+        "bgLowlight"
+    ]
+
+    for c in bg_colors:
+        for l in alpha_levels:
+            color_name = "%s"
+            theme["{}/{}".format(c, l)] = calc_opacity_rgb(theme[c], theme["bg"], l)
+
+    return theme
+
+
 FORMATTERS = {
     "css_hex": to_css_hex,
     "css_rgb": to_css_rgb,
@@ -60,6 +84,7 @@ def main():
 
     themefile = open(args.theme, 'r')
     theme = json.load(themefile)
+    theme = inject_bg_opacity_colors(theme)
 
     for line in infile:
         for (k,v) in theme.items():

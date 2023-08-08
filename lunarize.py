@@ -20,6 +20,29 @@ def to_decimal_rgb(rgb):
         *[ round(x * 255.) for x in rgb]
     )
 
+def calc_opacity_rgb(rgb_fg, rgb_bg, alpha):
+    return [alpha * c1 + (1 - alpha) * c2 for (c1, c2) in zip(rgb_fg, rgb_bg)]
+
+def inject_bg_opacity_colors(theme):
+    alpha_levels = [0.75, 0.5, 0.25, 0.125]
+    bg_colors = [
+        "bgRed",
+        "bgYellow",
+        "bgGreen",
+        "bgBlue",
+        "bgDarkBlue",
+        "bgLightYellow",
+        "bgHighlight",
+        "bgLowlight"
+    ]
+
+    for c in bg_colors:
+        for l in alpha_levels:
+            theme["{}/{}".format(c, l)] = calc_opacity_rgb(theme[c], theme["bg"], l)
+
+    return theme
+
+
 FORMATTERS = {
     "css_hex": to_css_hex,
     "css_rgb": to_css_rgb,
@@ -31,11 +54,11 @@ def main():
     parser.add_argument('theme', type=str, help="JSON file defining theme colors")
     parser.add_argument('input', type=str, nargs='?', help="Template file (default: stdin)")
     parser.add_argument('output', type=str, nargs='?', help="Output file (default: stdout)")
-    
+
     parser.add_argument('--format', type=str, choices=FORMATTERS.keys(), default="css_hex",
     help=textwrap.dedent('''\
     How to format color codes
-    
+
     A neutral gray would be formatted as follows:
 
     css_hex:      #808080
@@ -52,7 +75,7 @@ def main():
         infile = sys.stdin
     else:
         infile = open(args.input, 'r')
-    
+
     if args.output is None:
         outfile = sys.stdout
     else:
@@ -60,6 +83,7 @@ def main():
 
     themefile = open(args.theme, 'r')
     theme = json.load(themefile)
+    theme = inject_bg_opacity_colors(theme)
 
     for line in infile:
         for (k,v) in theme.items():

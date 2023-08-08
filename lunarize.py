@@ -38,7 +38,6 @@ def inject_bg_opacity_colors(theme):
 
     for c in bg_colors:
         for l in alpha_levels:
-            color_name = "%s"
             theme["{}/{}".format(c, l)] = calc_opacity_rgb(theme[c], theme["bg"], l)
 
     return theme
